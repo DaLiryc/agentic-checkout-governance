@@ -1,0 +1,11 @@
+name = "tap-capture-worker"
+main = "src/index.ts"
+compatibility_date = "2026-08-16"
+
+# Optional: best-effort nonce dedupe across worker isolates.
+# Create the namespace (wrangler kv namespace create CG_KV_NAMESPACE),
+# then uncomment and paste the printed id:
+#
+# [[kv_namespaces]]
+# binding = "CG_KV_NAMESPACE"
+# id = "<namespace-id>"
